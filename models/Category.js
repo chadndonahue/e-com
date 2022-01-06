@@ -10,6 +10,7 @@ Category.init(
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
+      // allow null false will not allow them to enter nothing
       primaryKey: true,
       autoIncrement: true,
     },
